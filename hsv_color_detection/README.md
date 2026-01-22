@@ -53,3 +53,11 @@ Bu yüzden renk tespiti yaparken HSV, BGR’ye göre çok daha mantıklı bir se
    -> İşlemin gerçek zamanlı çalıştığını görürüm.  
    -> Kullanıcı çıkmak isterse programı düzgün şekilde sonlandırırım.
 
+---
+
+## Ekran Görüntüleri
+
+![HSV Mask](../images/01-hsv_mask.png)
+![HSV Frame](../images/01-hsv_mask2.png)
+
+
