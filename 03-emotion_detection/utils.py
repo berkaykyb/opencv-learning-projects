@@ -1,10 +1,8 @@
 import cv2
 import mediapipe as mp
 
+
 def get_face_landmarks(image, draw=False, static_image_mode=True):
-    
-    if image is None:
-        return None
 
     # Read the input image
     image_input_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
@@ -28,7 +26,7 @@ def get_face_landmarks(image, draw=False, static_image_mode=True):
             mp_drawing.draw_landmarks(
                 image=image,
                 landmark_list=results.multi_face_landmarks[0],
-                connections=face_mesh.FACEMESH_CONTOURS,
+                connections=mp.solutions.face_mesh.FACEMESH_CONTOURS,
                 landmark_drawing_spec=drawing_spec,
                 connection_drawing_spec=drawing_spec)
 
