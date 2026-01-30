@@ -7,4 +7,4 @@ data.txt
 model
 .idea/
 *.iml
-
+*.pt
