@@ -48,10 +48,10 @@ Bu proje kapsamında:
 1. **YOLO modelini yükle**
    - Hazır eğitilmiş bir YOLOv8 modeli kullanıyorum.
 
-2. **Videoyu aç*
+2. **Videoyu aç**
    - `cv2.VideoCapture` ile videoyu frame frame okuyacağım.
 
-3. **Frame döngüsüne gir*
+3. **Frame döngüsüne gir**
    - Videodaki her kareyi tek tek alıyorum.
    - Video bittiğinde döngü kendiliğinden duruyor.
 
